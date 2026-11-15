@@ -35,16 +35,15 @@ PostgreSQL, SQL (JOINs, CTEs, subqueries, aggregations, views), Power BI, Power 
 ## Repository contents
 | Path | What it is |
 | --- | --- |
-| `sql/adventureworks_analysis.sql` | Table creation, transformations, 15 business queries, KPI and slicer views |
-| `powerbi/AdventureWorks_Report.pbix` | Power BI dashboard (data is imported into the file) |
+| `data/` | Source data files used in the analysis |
 | `images/` | Dashboard and query screenshots |
-
-## My role
-I wrote the SQL queries, did the data cleaning and transformation, and helped build the Power BI dashboard.
+| `powerbi/AdventureWorks_Report.pbix` | Power BI dashboard (data is imported into the file) |
+| `presentation/presentation.pdf` | Presentation of the project findings |
+| `sql/adventureworks_analysis.sql` | Table creation, transformations, 15 business queries, KPI and slicer views |
 
 
 ## Data
-The AdventureWorks dataset was provided by our fellowship instructor. It is a public Microsoft sample dataset, and the raw CSV files are not included in this repository.
+The AdventureWorks dataset was provided by our fellowship instructor. It is a public Microsoft sample dataset, and the raw CSV files are included in this repository.
 
 ## How to reproduce
 1. Create the database and tables from `sql/adventureworks_analysis.sql`.
