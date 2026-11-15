@@ -1,6 +1,6 @@
 # AdventureWorks Sales Analysis | PostgreSQL & Power BI
 
-Group project from the **Women Techsters Fellowship** (Data Science & Engineering, Class A), Tech4Dev, **Group 4**.
+Project from the **Women Techsters Fellowship** (Data Science & Engineering, Class A), Tech4Dev,.
 
 ![Dashboard overview](images/dashboard_2_insights.png)
 
